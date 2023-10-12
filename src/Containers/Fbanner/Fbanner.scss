@@ -1,0 +1,15 @@
+@import "../../scss/abstracts/variables";
+
+.fbanner {
+    width: 75%;
+    height: 20%; 
+    background-color: red;
+    border-radius: 15px;
+}
+
+@media (max-width: 450px) {
+    .fbanner {
+        width: 100%;
+        margin-top: 10%;
+    }
+}
